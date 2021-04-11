@@ -1,0 +1,3111 @@
+{
+    "data": [
+        {
+            "postcode": 3206,
+            "latitude": 32.17976747,
+            "economic": {
+                "longitudeEco": 120.9460516,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0.891472868,
+                        "size": 13
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0.968992248,
+                        "size": 13
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0.992248062,
+                        "size": 13
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0.868217054,
+                        "size": 13
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.635658915,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 121.0097772,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.833333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.833333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.666666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.583333333,
+                        "size": 10
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 120.882326,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 12
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 10
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3209,
+            "latitude": 33.52093683,
+            "economic": {
+                "longitudeEco": 120.1085892,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0.891472868,
+                        "size": 13
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0.968992248,
+                        "size": 13
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0.992248062,
+                        "size": 13
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0.868217054,
+                        "size": 13
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.635658915,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            "geographic": {
+                "longitudeGeo": 120.2704199,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 227
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 227
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 227
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 227
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 227
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 227
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 227
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 227
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 227
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 227
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 227
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 227
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 120.1733215,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.75,
+                        "size": 11
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.75,
+                        "size": 11
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.583333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.666666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 120.0438569,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 0
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3212,
+            "latitude": 32.57141134,
+            "economic": {
+                "longitudeEco": 119.9928035,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0.891472868,
+                        "size": 13
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0.968992248,
+                        "size": 13
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0.992248062,
+                        "size": 13
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0.868217054,
+                        "size": 13
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.635658915,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            "geographic": {
+                "longitudeGeo": 120.1528844,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 143
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 143
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 143
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 143
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 143
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 143
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 143
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 143
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 143
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 143
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 143
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 143
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 120.0568359,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.75,
+                        "size": 10
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.75,
+                        "size": 10
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.583333333,
+                        "size": 10
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.666666667,
+                        "size": 10
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 119.9287712,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 9
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3210,
+            "latitude": 32.73698335,
+            "economic": {
+                "longitudeEco": 119.4105213,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0.891472868,
+                        "size": 13
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0.968992248,
+                        "size": 13
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0.992248062,
+                        "size": 13
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0.868217054,
+                        "size": 13
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.635658915,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            "geographic": {
+                "longitudeGeo": 119.570559,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 144
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 144
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 144
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 144
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 144
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 144
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 144
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 144
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 144
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 144
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 144
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 144
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 119.4745364,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.75,
+                        "size": 10
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.75,
+                        "size": 10
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.583333333,
+                        "size": 10
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.666666667,
+                        "size": 10
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3202,
+            "latitude": 31.69001232,
+            "economic": {
+                "longitudeEco": 120.2643867,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0.891472868,
+                        "size": 13
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0.968992248,
+                        "size": 13
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0.992248062,
+                        "size": 13
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0.868217054,
+                        "size": 13
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.635658915,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            "geographic": {
+                "longitudeGeo": 120.4228751,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 156
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 120.3277821,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.833333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.833333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.666666667,
+                        "size": 10
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.583333333,
+                        "size": 10
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 120.2009914,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 10
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 12
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 10
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3203,
+            "latitude": 34.3545087,
+            "economic": {
+                "longitudeEco": 117.4533959,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0.891472868,
+                        "size": 13
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0.968992248,
+                        "size": 13
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0.992248062,
+                        "size": 13
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0.868217054,
+                        "size": 13
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.635658915,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            "geographic": {
+                "longitudeGeo": 117.6167848,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 197
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 197
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 197
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 197
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 197
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 197
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 197
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 197
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 197
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 197
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 197
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 197
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 117.5187515,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.833333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.833333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.666666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 12
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.583333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 12
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 12
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 117.3880404,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 10
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 11
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 12
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 9
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3204,
+            "latitude": 31.62479936,
+            "geographic": {
+                "longitudeGeo": 119.73182,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 142
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 142
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 142
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 142
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 142
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 142
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 142
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 142
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 142
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 142
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 142
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 142
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 119.6365045,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.833333333,
+                        "size": 10
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.833333333,
+                        "size": 10
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.666666667,
+                        "size": 10
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.583333333,
+                        "size": 10
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 119.5094171,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 9
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3205,
+            "latitude": 31.38230147,
+            "economic": {
+                "longitudeEco": 120.5883152,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0.891472868,
+                        "size": 13
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0.968992248,
+                        "size": 13
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0.992248062,
+                        "size": 13
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0.868217054,
+                        "size": 13
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.635658915,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            "geographic": {
+                "longitudeGeo": 120.7463614,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 200
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 200
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 200
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 200
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 200
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 200
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 200
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 200
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 200
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 200
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 200
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 200
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 120.6515337,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.833333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.833333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.666666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 12
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.583333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 12
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 12
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 120.5250968,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 13
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 14
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 18
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 12
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3207,
+            "latitude": 34.53068189,
+            "economic": {
+                "longitudeEco": 119.0658565,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0.891472868,
+                        "size": 13
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0.968992248,
+                        "size": 13
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0.992248062,
+                        "size": 13
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0.868217054,
+                        "size": 13
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.635658915,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            "geographic": {
+                "longitudeGeo": 119.2300458,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 156
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 156
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 119.0001807,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 9
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3208,
+            "latitude": 33.35180247,
+            "geographic": {
+                "longitudeGeo": 119.0624672,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 181
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 181
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 181
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 181
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 181
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 181
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 181
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 181
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 181
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 181
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 181
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 181
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 118.965177,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.75,
+                        "size": 11
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.75,
+                        "size": 11
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.583333333,
+                        "size": 10
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.666666667,
+                        "size": 10
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 118.8354567,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 9
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 0
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3211,
+            "latitude": 32.01613142,
+            "economic": {
+                "longitudeEco": 119.3898456,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0.891472868,
+                        "size": 13
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0.968992248,
+                        "size": 13
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0.992248062,
+                        "size": 13
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0.868217054,
+                        "size": 13
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.635658915,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            "geographic": {
+                "longitudeGeo": 119.5494231,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 148
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 148
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 148
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 148
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 148
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 148
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 148
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 148
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 148
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 148
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 148
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 148
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 119.4536766,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.75,
+                        "size": 10
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.75,
+                        "size": 10
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.583333333,
+                        "size": 10
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.666666667,
+                        "size": 10
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 119.3260146,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 17
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 11
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 14
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 9
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3213,
+            "latitude": 33.78396872,
+            "economic": {
+                "longitudeEco": 118.4551378,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0.891472868,
+                        "size": 13
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0.968992248,
+                        "size": 13
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0.992248062,
+                        "size": 13
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0.868217054,
+                        "size": 13
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.635658915,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            "geographic": {
+                "longitudeGeo": 118.6179185,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 158
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 158
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 158
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 158
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 158
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 158
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 158
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 158
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 158
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 158
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 158
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 158
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 118.5202501,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.75,
+                        "size": 10
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.75,
+                        "size": 10
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.583333333,
+                        "size": 10
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 10
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.666666667,
+                        "size": 10
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 10
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 10
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 118.3900256,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 0
+                    }
+                ]
+            }
+        },
+        {
+            "postcode": 3201,
+            "latitude": 31.92779431,
+            "economic": {
+                "longitudeEco": 118.7790653,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0.891472868,
+                        "size": 13
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0.968992248,
+                        "size": 13
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0.992248062,
+                        "size": 13
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0.868217054,
+                        "size": 13
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.635658915,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0,
+                        "size": 0
+                    }
+                ]
+            },
+            "geographic": {
+                "longitudeGeo": 118.9383833,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 1,
+                        "size": 170
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 1,
+                        "size": 170
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 1,
+                        "size": 170
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 1,
+                        "size": 170
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 1,
+                        "size": 170
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 1,
+                        "size": 170
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 1,
+                        "size": 170
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 1,
+                        "size": 170
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 170
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 170
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 170
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 170
+                    }
+                ]
+            },
+            "night": {
+                "longitudeNight": 118.8427925,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0.833333333,
+                        "size": 12
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0.833333333,
+                        "size": 10
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0.666666667,
+                        "size": 11
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0.916666667,
+                        "size": 12
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 0.583333333,
+                        "size": 11
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 0.916666667,
+                        "size": 12
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 0.916666667,
+                        "size": 12
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 0.083333333,
+                        "size": 9
+                    }
+                ]
+            },
+            "paper": {
+                "longitudePaper": 118.7153381,
+                "data": [
+                    {
+                        "time": 2009,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2010,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2011,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2012,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2013,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2014,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2015,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2016,
+                        "completeness": 0,
+                        "size": 0
+                    },
+                    {
+                        "time": 2017,
+                        "completeness": 1,
+                        "size": 37
+                    },
+                    {
+                        "time": 2018,
+                        "completeness": 1,
+                        "size": 51
+                    },
+                    {
+                        "time": 2019,
+                        "completeness": 1,
+                        "size": 87
+                    },
+                    {
+                        "time": 2020,
+                        "completeness": 1,
+                        "size": 38
+                    }
+                ]
+            }
+        }
+    ]
+}

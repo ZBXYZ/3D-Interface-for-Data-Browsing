@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+
+    <!-- META -->
+    <meta charset='utf-8' />
+    <meta name='viewport' content='initial-scale=1, maximum-scale=1, user-scalable=no' />
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- TITLE -->
+    <title>3D Interface for Geodata Browsing</title>
+
+    <!-- STYLE SHEETS -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:300,400,600' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <!-- COVER PAGE -->
+    <div class="coverpage">
+        <div class="cp_content">
+            <h1>3D Interface for Data Browsing</h1>
+            <p>This project aims to improve the data query process when using data portals by visualizing metadata of
+                data.<br>
+                3D visualization is utilized here with height representing time.<br>
+                Jiangsu province, located in East China, straddles the Yangtze and Huaihe Rivers, spreading north and
+                south. The comprehensive competitiveness of Jiangsu's provincial economy ranks first in the country, and
+                it is one of the most economically active provinces in China. It is used here as the test area.<br>
+                This 3D interface chooses several categories of data and visualizes data category, data size, and data
+                quality. Typical component of data quality, completeness is selected to represent the basic data quality
+                information.
+            </p>
+            <p><a>Explore&nbsp;>></a></p>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div id='header'>
+
+        <!-- HEADER/ABOUT-LINK -->
+        <div id='about-link'>
+            <span class='desktop'>Information</span>
+        </div>
+        <!-- HEADER/TITLE -->
+        <div id='title'>
+            <span class='desktop'>3D Interface for Data Browsing</span>
+        </div>
+
+    </div>
+
+    <!-- ABOUT -->
+    <div class='about' id='about'>
+
+        <!-- ABOUT/CLOSE -->
+        <div id='about-close'>X</div>
+
+        <!-- ABOUT/CONTENT -->
+        <div id='about-content'>
+
+            <!-- ABOUT/CONTENT/HEADER -->
+            <div id='about-header'>3D Interface for Data Browsing</div>
+
+            <!-- ABOUT/CONENT/TEXT -->
+            <div id='about-text'>
+
+                <p>
+                    The test area is Jiangsu province, which is the one of the most economically active provinces in
+                    China.
+                    Several categories of data in this province are selected and space time cube is utilized here with
+                    height representing time.
+                    Metadata of those data are visualized here in this interface with color hue, size, and saturation
+                    visualizing data category, data size, and completeness separately.
+                    For the base map, color value indicates the total amount of data in each city of Jiangsu province.
+                </p>
+
+                <!-- ABOUT/CONENT/TEXT/CREDITS -->
+                <div id='about-credits'>
+                    <p>
+                        <br />Design, Development, Data & Modelling - Mengyao Gao
+                        <br />Program - <a href='https://cartographymaster.eu/' target='_blank'>Cartography M.Sc.</a>
+                        <br />Map engine - <a href='https://www.mapbox.com/mapbox-gl-js/' target='_blank'>Mapbox GL
+                            JS</a>
+                        <br />Graphing engine - <a href='https://threejs.org/' target='_blank'>Three.js</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- SIDE BAR -->
+    <div id='sidebar'>
+        <!-- LEGEND -->
+        <div id='legend'>
+
+            <!-- LEGEND/CONTENT/DATA CATEGORY -->
+            <div id='legend-content'>
+                <div class='line LTitle'>CUBE LEGEND</div>
+                <div class='line legTitle'>Completeness:</div>
+
+                <div class='line'>Nighttime Light:</div>
+                <div class='line qualine'>
+                    <div class='av' id='night_01'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='night_06'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='night_07'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='night_09'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='night_10'>&#9724;&#xFE0E;</div>
+                </div>
+                <div class='line captionLine'>
+                    <div class='caption'>10%</div>
+                    <div class='caption'>60</div>
+                    <div class='caption'>70</div>
+                    <div class='caption'>90</div>
+                    <div class='caption'>100%</div>
+                </div>
+
+                <div class='line'>Social:</div>
+                <div class='line qualine'>
+                    <div class='av' id='social_01'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='social_06'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='social_07'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='social_09'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='social_10'>&#9724;&#xFE0E;</div>
+                </div>
+                <div class='line captionLine'>
+                    <div class='caption'>10%</div>
+                    <div class='caption'>60</div>
+                    <div class='caption'>70</div>
+                    <div class='caption'>90</div>
+                    <div class='caption'>100%</div>
+                </div>
+
+                <div class='line'>Economic:</div>
+                <div class='line qualine'>
+                    <div class='av' id='eco_01'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='eco_06'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='eco_07'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='eco_09'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='eco_10'>&#9724;&#xFE0E;</div>
+                </div>
+                <div class='line captionLine'>
+                    <div class='caption'>10%</div>
+                    <div class='caption'>60</div>
+                    <div class='caption'>70</div>
+                    <div class='caption'>90</div>
+                    <div class='caption'>100%</div>
+                </div>
+
+                <div class='line'>Geographic:</div>
+                <div class='line qualine'>
+                    <div class='av' id='geo_01'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='geo_06'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='geo_07'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='geo_09'>&#9724;&#xFE0E;</div>
+                    <div class='av' id='geo_10'>&#9724;&#xFE0E;</div>
+                </div>
+                <div class='line captionLine'>
+                    <div class='caption'>10%</div>
+                    <div class='caption'>60</div>
+                    <div class='caption'>70</div>
+                    <div class='caption'>90</div>
+                    <div class='caption'>100%</div>
+                </div>
+            </div>
+
+            <!-- LEGEND/CONTENT/DATA CATEGORY -->
+            <div id='legend-content'>
+
+                <div class='line legTitle'>Data Category:</div>
+
+                <div class='line'>
+                    <div class='av' id='soci'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>economic data</div>
+                </div>
+                <div class='line'>
+                    <div class='av' id='eco'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>social data</div>
+                </div>
+                <div class='line'>
+                    <div class='av' id='geo'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>geographic data</div>
+                </div>
+                <div class='line'>
+                    <div class='av' id='night'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>nighttime light data</div>
+                </div>
+            </div>
+
+            <div id='legend-content'>
+
+                <div class='line legTitle'>Data Size:</div>
+                <div class='size'>
+                    <span class='caption sizeCap'>large</span>
+                    <span id='size_33'>&#9724;&#xFE0E;</span>
+                    <span id='size_27'>&#9724;&#xFE0E;</span>
+                    <span id='size_22'>&#9724;&#xFE0E;</span>
+                    <span id='size_16'>&#9724;&#xFE0E;</span>
+                    <span class='caption sizeCap'>small</span>
+                </div>
+            </div>
+        </div>
+        <div id='legend'>
+            <!-- LEGEND/CONTENT/DATA AMOUNT -->
+            <div id='legend-content'>
+                <div class='line LTitle'>BASE MAP LEGEND</div>
+                <div class='line legTitle'>Amount of Data:</div>
+
+                <div class='line'>
+                    <div class='av' id='am_16'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>≤16</div>
+                </div>
+                <div class='line'>
+                    <div class='av' id='am_21'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>≤21</div>
+                </div>
+                <div class='line'>
+                    <div class='av' id='am_24'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>≤24</div>
+                </div>
+                <div class='line'>
+                    <div class='av' id='am_28'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>≤28</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FILTER PANEL -->
+    <div class="filterSidebar">
+        <!-- NEIGHBORHOOD FILTER -->
+        <div id='cbs' class='desktop'>
+            <!-- NEIGHBORHOOD/CONTENT -->
+            <div id='cbs-content'>
+                <div class='line legTitle'>City&nbsp;Selcetion:</div>
+                <div class='line'>
+                    <input type='checkbox' id='cb0' class='cbnAll' checked>
+                    <span>&nbsp;All checked</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb1' class='cbn' checked>
+                    <span>&nbsp;Nanjing</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb2' class='cbn' checked>
+                    <span>&nbsp;Wuxi</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb3' class='cbn' checked>
+                    <span>&nbsp;Xuzhou</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb4' class='cbn' checked>
+                    <span>&nbsp;Changzhou</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb5' class='cbn' checked>
+                    <span>&nbsp;Suzhou</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb6' class='cbn' checked>
+                    <span>&nbsp;Nantong</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb7' class='cbn' checked>
+                    <span>&nbsp;Lianyungang</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb8' class='cbn' checked>
+                    <span>&nbsp;Huaian</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb9' class='cbn' checked>
+                    <span>&nbsp;Yancheng</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb10' class='cbn' checked>
+                    <span>&nbsp;Yangzhou</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb11' class='cbn' checked>
+                    <span>&nbsp;Zhenjiang</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb12' class='cbn' checked>
+                    <span>&nbsp;Taizhou</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cb13' class='cbn' checked>
+                    <span>&nbsp;Suqian</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CATEGORY FILTER -->
+        <div id='cbs' class='desktop'>
+            <div id='cbs-content'>
+                <div class='line legTitle'>Category&nbsp;Selcetion:</div>
+                <div class='line'>
+                    <input type='checkbox' id='cbc0' class='cbcAll' checked>
+                    <span>&nbsp;All checked</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cbc1' class=' cbc' checked>
+                    <span>&nbsp;Geographic</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cbc2' class='cbc' checked>
+                    <span>&nbsp;Economic</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cbc3' class='cbc' checked>
+                    <span>&nbsp;Social</span>
+                </div>
+                <div class='line'>
+                    <input type='checkbox' id='cbc4' class='cbc' checked>
+                    <span>&nbsp;Nighttime Light</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAP -->
+    <div id="map"></div>
+
+    <!-- POPUP -->
+    <div id="popup">
+        <p>Economic</p>
+        <p>Time: <span>2018</span></p>
+        <p>Completeness: <span>0.88</span></p>
+        <p>Size: <span>10</span></p>
+    </div>
+
+    <!-- JS RESOURCE -->
+    <script src='./bundle.js'></script>
+</body>
+
+</html>
