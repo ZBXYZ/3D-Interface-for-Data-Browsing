@@ -13,7 +13,7 @@ git clone https://github.com/ZBXYZ/3D-Interface-for-Data-Browsing.git my-folder-
 ### 2. Navigate to the directory
 
 ```
-cd my-folder-name
+cd my-folder-name\3D-interface-for-data-browsing
 ```
 
 ### 3. Install dependencies
