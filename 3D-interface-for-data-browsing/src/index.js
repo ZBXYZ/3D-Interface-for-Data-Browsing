@@ -268,7 +268,7 @@ function onDocumentMouseMove(event) {
         }
 
     } else {
-        pop.style.display = "none";
+        pop.style('display', 'none');
 
         if (INTERSECTED) INTERSECTED.material.emissive.setHex(INTERSECTED.currentHex);
 
