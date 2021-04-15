@@ -299,8 +299,6 @@ let addCustom = function (positions) {
         id: 'custom_layer',
         type: 'custom',
         onAdd: function (map, mbxContext) {
-
-            //重点二：原来可能是非严格模式，所以tb自动变成了全局变量，这里要单独在外面定义
             tb = new Threebox(
                 map,
                 mbxContext,
@@ -314,18 +312,16 @@ let addCustom = function (positions) {
                     if (positions[j].geographic) {
                         let geographicSize = (positions[j].geographic.data[i].size) == 0 ? 10 : (positions[j].geographic.data[i].size) * 0.7 + 50;
                         let geoGeometry = new THREE.BoxGeometry(geographicSize, geographicSize, 200);
-                        const GeoLoader = new THREE.TextureLoader();
                         let greenMaterial = new THREE.MeshPhongMaterial({
                             color: 0x6b705c,
                             side: THREE.FrontSide,
                             opacity: positions[j].geographic.data[i].completeness
-                            // map: GeoLoader.load('./assets/horizontal.jpg')
                         });
                         let cube = new THREE.Mesh(geoGeometry, greenMaterial);
                         cube = tb.Object3D({ obj: cube })
                             .setCoords([positions[j].geographic.longitudeGeo, positions[j].latitude, i * 9000]);
                         cube.data = positions[j].geographic.data[i];
-                        cube.data.category = "geographic";
+                        cube.data.category = "Geographic";
                         tb.add(cube);
                     }
 
@@ -333,54 +329,48 @@ let addCustom = function (positions) {
                         let nightSize = positions[j].night.data[i].size == 0 ? 10 : (positions[j].night.data[i].size) * 0.7 + 50;
                         let nightGeometry = new THREE.BoxGeometry(nightSize, nightSize, 200);
                         //texture test
-                        const nightLoader = new THREE.TextureLoader();
                         let blackMaterial = new THREE.MeshPhongMaterial({
                             color: 0x213C3C,
                             side: THREE.FrontSide,
                             opacity: positions[j].night.data[i].completeness,
-                            // map: nightLoader.load('./assets/grid.jpg')
                         });
                         let cube4 = new THREE.Mesh(nightGeometry, blackMaterial);
                         cube4 = tb.Object3D({ obj: cube4 })
                             .setCoords([positions[j].night.longitudeNight, positions[j].latitude, i * 9000]);
                         cube4.data = positions[j].night.data[i];
-                        cube4.data.category = "night";
+                        cube4.data.category = "Nighttime Light";
                         tb.add(cube4);
                     }
 
                     if (positions[j].economic) {
                         let economicSize = (positions[j].economic.data[i].size) == 0 ? 10 : (positions[j].economic.data[i].size) * 0.7 + 50;
                         let economicGeometry = new THREE.BoxGeometry(economicSize, economicSize, 200);
-                        const ecoLoader = new THREE.TextureLoader();
                         let redMaterial = new THREE.MeshPhongMaterial({
                             color: 0x631a18,
                             side: THREE.FrontSide,
                             opacity: positions[j].economic.data[i].completeness,
-                            // map: ecoLoader.load('./assets/stripe.jpg')
                         });
                         let cube2 = new THREE.Mesh(economicGeometry, redMaterial);
                         cube2 = tb.Object3D({ obj: cube2 })
                             .setCoords([positions[j].economic.longitudeEco, positions[j].latitude, i * 9000]);
                         cube2.data = positions[j].economic.data[i];
-                        cube2.data.category = "economic";
+                        cube2.data.category = "Economic";
                         tb.add(cube2);
                     }
 
                     if (positions[j].paper) {
                         let paperSize = (positions[j].paper.data[i].size) == 0 ? 10 : (positions[j].paper.data[i].size) * 0.7 + 50;
                         let paperGeometry = new THREE.BoxGeometry(paperSize, paperSize, 200);
-                        const paperLoader = new THREE.TextureLoader();
                         let yellowMaterial = new THREE.MeshPhongMaterial({
                             color: 0x975843,
                             side: THREE.FrontSide,
                             opacity: positions[j].paper.data[i].completeness,
-                            // map: paperLoader.load('./assets/tri.jpg')
                         });
                         let cube3 = new THREE.Mesh(paperGeometry, yellowMaterial);
                         cube3 = tb.Object3D({ obj: cube3 })
                             .setCoords([positions[j].paper.longitudePaper, positions[j].latitude, i * 9000]);
                         cube3.data = positions[j].paper.data[i];
-                        cube3.data.category = "paper";
+                        cube3.data.category = "Social";
                         tb.add(cube3);
                     }
 
@@ -389,7 +379,6 @@ let addCustom = function (positions) {
 
             document.addEventListener('mousemove', onDocumentMouseMove);
         },
-        //红色： 0x621708  黑色：0x2C2C2C  绿色：0x384741  黄色：0xAB764B
         render: function (gl, matrix) {
             tb.update();
         }
