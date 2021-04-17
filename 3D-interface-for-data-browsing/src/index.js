@@ -90,9 +90,9 @@ var map = new mapboxgl.Map({
     // style: 'mapbox://styles/mapbox/streets-v11',
     container: 'map',
     center: origin,
-    zoom: 7,
-    pitch: 60,
-    bearing: 20
+    zoom: 6.8,
+    pitch: 55,
+    bearing: 17
 });
 var scale = new mapboxgl.ScaleControl({
     maxWidth: 80,
@@ -310,8 +310,8 @@ let addCustom = function (positions) {
                 for (let i = 0; i < 12; i++) {
 
                     if (positions[j].geographic) {
-                        let geographicSize = (positions[j].geographic.data[i].size) == 0 ? 10 : (positions[j].geographic.data[i].size) * 0.7 + 50;
-                        let geoGeometry = new THREE.BoxGeometry(geographicSize, geographicSize, 200);
+                        let geographicSize = (positions[j].geographic.data[i].size) == 0 ? 10 : (positions[j].geographic.data[i].size) * 0.9 + 50;
+                        let geoGeometry = new THREE.BoxGeometry(geographicSize, geographicSize, 230);
                         let greenMaterial = new THREE.MeshPhongMaterial({
                             color: 0x6b705c,
                             side: THREE.FrontSide,
@@ -319,15 +319,15 @@ let addCustom = function (positions) {
                         });
                         let cube = new THREE.Mesh(geoGeometry, greenMaterial);
                         cube = tb.Object3D({ obj: cube })
-                            .setCoords([positions[j].geographic.longitudeGeo, positions[j].latitude, i * 9000]);
+                            .setCoords([positions[j].geographic.longitudeGeo, positions[j].latitude, i * 11000]);
                         cube.data = positions[j].geographic.data[i];
                         cube.data.category = "Geographic";
                         tb.add(cube);
                     }
 
                     if (positions[j].night) {
-                        let nightSize = positions[j].night.data[i].size == 0 ? 10 : (positions[j].night.data[i].size) * 0.7 + 50;
-                        let nightGeometry = new THREE.BoxGeometry(nightSize, nightSize, 200);
+                        let nightSize = positions[j].night.data[i].size == 0 ? 10 : (positions[j].night.data[i].size) * 0.9 + 50;
+                        let nightGeometry = new THREE.BoxGeometry(nightSize, nightSize, 230);
                         //texture test
                         let blackMaterial = new THREE.MeshPhongMaterial({
                             color: 0x213C3C,
@@ -336,15 +336,15 @@ let addCustom = function (positions) {
                         });
                         let cube4 = new THREE.Mesh(nightGeometry, blackMaterial);
                         cube4 = tb.Object3D({ obj: cube4 })
-                            .setCoords([positions[j].night.longitudeNight, positions[j].latitude, i * 9000]);
+                            .setCoords([positions[j].night.longitudeNight, positions[j].latitude, i * 11000]);
                         cube4.data = positions[j].night.data[i];
                         cube4.data.category = "Nighttime Light";
                         tb.add(cube4);
                     }
 
                     if (positions[j].economic) {
-                        let economicSize = (positions[j].economic.data[i].size) == 0 ? 10 : (positions[j].economic.data[i].size) * 0.7 + 50;
-                        let economicGeometry = new THREE.BoxGeometry(economicSize, economicSize, 200);
+                        let economicSize = (positions[j].economic.data[i].size) == 0 ? 10 : (positions[j].economic.data[i].size) * 0.9 + 50;
+                        let economicGeometry = new THREE.BoxGeometry(economicSize, economicSize, 230);
                         let redMaterial = new THREE.MeshPhongMaterial({
                             color: 0x631a18,
                             side: THREE.FrontSide,
@@ -352,15 +352,15 @@ let addCustom = function (positions) {
                         });
                         let cube2 = new THREE.Mesh(economicGeometry, redMaterial);
                         cube2 = tb.Object3D({ obj: cube2 })
-                            .setCoords([positions[j].economic.longitudeEco, positions[j].latitude, i * 9000]);
+                            .setCoords([positions[j].economic.longitudeEco, positions[j].latitude, i * 11000]);
                         cube2.data = positions[j].economic.data[i];
                         cube2.data.category = "Economic";
                         tb.add(cube2);
                     }
 
                     if (positions[j].paper) {
-                        let paperSize = (positions[j].paper.data[i].size) == 0 ? 10 : (positions[j].paper.data[i].size) * 0.7 + 50;
-                        let paperGeometry = new THREE.BoxGeometry(paperSize, paperSize, 200);
+                        let paperSize = (positions[j].paper.data[i].size) == 0 ? 10 : (positions[j].paper.data[i].size) * 0.9 + 50;
+                        let paperGeometry = new THREE.BoxGeometry(paperSize, paperSize, 230);
                         let yellowMaterial = new THREE.MeshPhongMaterial({
                             color: 0x975843,
                             side: THREE.FrontSide,
@@ -368,7 +368,7 @@ let addCustom = function (positions) {
                         });
                         let cube3 = new THREE.Mesh(paperGeometry, yellowMaterial);
                         cube3 = tb.Object3D({ obj: cube3 })
-                            .setCoords([positions[j].paper.longitudePaper, positions[j].latitude, i * 9000]);
+                            .setCoords([positions[j].paper.longitudePaper, positions[j].latitude, i * 11000]);
                         cube3.data = positions[j].paper.data[i];
                         cube3.data.category = "Social";
                         tb.add(cube3);

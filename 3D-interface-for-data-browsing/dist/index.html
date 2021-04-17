@@ -22,16 +22,14 @@
     <div class="coverpage">
         <div class="cp_content">
             <h1>3D Interface for Data Browsing</h1>
-            <p>This project aims to improve the data query process when using data portals by visualizing metadata of
-                data.<br>
-                3D visualization is utilized here with height representing time.<br>
-                Jiangsu province, located in East China, straddles the Yangtze and Huaihe Rivers. The comprehensive
-                competitiveness of Jiangsu's provincial economy ranks first in the country, and
-                it is one of the most economically active provinces in China. It is used here as the test area.<br>
-                This 3D interface chooses several categories of data and visualizes data category, data size, and data
-                quality. <br>
-                Typical component of data quality, completeness is selected to represent the basic data quality
-                information. The social data we utilize here is the location of published paper's authors' institutions.
+            <p>This project aims to improve the data query process when using data portals by visualizing metadata.
+                Additionally, space time cube is used here to visualize time information with height representing time.
+                <br>
+                In order to evaluate the visualization method, Jiangsu province, which is one of the most economically
+                active provinces in China, is utilized here as the test area. Geographic, economic, social, and
+                nighttime light data of each city are shown.
+                <br>
+                You can explore this visualization platform first and then answer the questions.
             </p>
             <p><a>Explore&nbsp;>></a></p>
         </div>
@@ -67,20 +65,42 @@
             <div id='about-text'>
 
                 <p>
-                    The test area is Jiangsu province, which is the one of the most economically active provinces in
-                    China.
-                    Several categories of data in this province are selected and space time cube is utilized here with
-                    height representing time.
-                    Metadata of those data are visualized here in this interface with color hue, size, and saturation
-                    visualizing data category, data size, and completeness separately.
-                    For the base map, color value indicates the total amount of data in each city of Jiangsu province.
+                    Here we use economic data, geographic data, social data, and nighttime light data for evaluation.
+                </p>
+                <p>
+                    Economic data are collected from <a href="http://nnu.geodata.cn:8008/">National Earth System Science
+                        Data Center</a>
+                    on March 17th, 2019. It covers information of important economic indicators for each city in Jiangsu
+                    province.
+                    Geographic data are downloaded from <a href="https://www.webmap.cn/main.do?method=index">National
+                        Catalogue Service For Geographic Information</a>
+                    on June, 2018. It records the border of each city.
+                    Social data used here are the locations of published paper's authors' institutions, obtained from
+                    <a href="https://dl.acm.org/">ACMDL</a>.
+                    Nighttime light data are the digital number(DN) value results calculated from visible infrared
+                    imaging radiometer suite(VIIRS), published in <a
+                        href="https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/viirs-nrt">
+                        EARTHDATA</a>.
+                </p>
+                <p>
+                    In order to provide better overview of all mentioned data and assist in data browsing and querying
+                    process, several metadata are selected and visualized.
+                    Color hue, size,and saturation are used to visualize data categroy, data size,and data quality
+                    seperately.
+                    Since data quality has many components, we select attribute completeness here to indicate the
+                    quality of each data.
+                    For the basemap design, color value is used to represent total amount of data in each city of
+                    Jiangsu province.
                 </p>
 
                 <!-- ABOUT/CONENT/TEXT/CREDITS -->
                 <div id='about-credits'>
                     <p>
-                        <br />Design, Development, Data & Modelling - Mengyao Gao
-                        <br />Program - <a href='https://cartographymaster.eu/' target='_blank'>Cartography M.Sc.</a>
+                        <br />Design, Development, Data & Modelling - <a
+                            href='https://github.com/ZBXYZ/3D-Interface-for-Data-Browsing/tree/main/3D-interface-for-data-browsing'
+                            target='_blank'>Mengyao Gao</a>
+                        <br />Program - <a href='https://cartographymaster.eu/' target='_blank'>Cartography M.Sc.</a> of
+                        TUM
                         <br />Map engine - <a href='https://www.mapbox.com/mapbox-gl-js/' target='_blank'>Mapbox GL
                             JS</a>
                         <br />Graphing engine - <a href='https://threejs.org/' target='_blank'>Three.js</a>
@@ -100,8 +120,28 @@
             <!-- LEGEND/CONTENT/DATA CATEGORY -->
             <div id='legend-content'>
                 <div class='line LTitle'>CUBE LEGEND</div>
-                <div class='line legTitle'>Completeness:</div>
+                <div class='line legTitle'>Data Category:</div>
 
+                <div class='line'>
+                    <div class='av' id='soci'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>economic data</div>
+                </div>
+                <div class='line'>
+                    <div class='av' id='eco'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>social data</div>
+                </div>
+                <div class='line'>
+                    <div class='av' id='geo'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>geographic data</div>
+                </div>
+                <div class='line'>
+                    <div class='av' id='night'>&#9724;&#xFE0E;</div>
+                    <div class='caption'>nighttime light data</div>
+                </div>
+            </div>
+            <!-- LEGEND/CONTENT/DATA QUALITY -->
+            <div id='legend-content'>
+                <div class='line legTitle'>Completeness:</div>
                 <div class='line'>Nighttime Light:</div>
                 <div class='line qualine'>
                     <div class='av' id='night_01'>&#9724;&#xFE0E;</div>
@@ -166,30 +206,7 @@
                     <div class='caption'>100%</div>
                 </div>
             </div>
-
-            <!-- LEGEND/CONTENT/DATA CATEGORY -->
-            <div id='legend-content'>
-
-                <div class='line legTitle'>Data Category:</div>
-
-                <div class='line'>
-                    <div class='av' id='soci'>&#9724;&#xFE0E;</div>
-                    <div class='caption'>economic data</div>
-                </div>
-                <div class='line'>
-                    <div class='av' id='eco'>&#9724;&#xFE0E;</div>
-                    <div class='caption'>social data</div>
-                </div>
-                <div class='line'>
-                    <div class='av' id='geo'>&#9724;&#xFE0E;</div>
-                    <div class='caption'>geographic data</div>
-                </div>
-                <div class='line'>
-                    <div class='av' id='night'>&#9724;&#xFE0E;</div>
-                    <div class='caption'>nighttime light data</div>
-                </div>
-            </div>
-
+            <!-- LEGEND/CONTENT/DATA SIZE -->
             <div id='legend-content'>
 
                 <div class='line legTitle'>Data Size:</div>
@@ -202,6 +219,14 @@
                     <span class='caption sizeCap'>small</span>
                 </div>
             </div>
+            <!-- LEGEND/CONTENT/TIME -->
+            <div id='legend-content'>
+                <div class='line legTitle'>Time:</div>
+                <div class='time'>
+                    <span id='timeCube'>&#9724;&#xFE0E;</span>
+                    <span class='caption timeCap'>} one year</span>
+                </div>
+            </div>
         </div>
         <div id='legend'>
             <!-- LEGEND/CONTENT/DATA AMOUNT -->
@@ -211,19 +236,19 @@
 
                 <div class='line'>
                     <div class='av' id='am_16'>&#9724;&#xFE0E;</div>
-                    <div class='caption'>≤16</div>
+                    <div class='caption'>0-16</div>
                 </div>
                 <div class='line'>
                     <div class='av' id='am_21'>&#9724;&#xFE0E;</div>
-                    <div class='caption'>≤21</div>
+                    <div class='caption'>16-21</div>
                 </div>
                 <div class='line'>
                     <div class='av' id='am_24'>&#9724;&#xFE0E;</div>
-                    <div class='caption'>≤24</div>
+                    <div class='caption'>21-24</div>
                 </div>
                 <div class='line'>
                     <div class='av' id='am_28'>&#9724;&#xFE0E;</div>
-                    <div class='caption'>≤28</div>
+                    <div class='caption'>24-28</div>
                 </div>
             </div>
         </div>
