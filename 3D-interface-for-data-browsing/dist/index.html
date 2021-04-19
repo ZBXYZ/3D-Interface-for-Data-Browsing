@@ -68,17 +68,26 @@
                     Here we use economic data, geographic data, social data, and nighttime light data for evaluation.
                 </p>
                 <p>
-                    Economic data are collected from <a href="http://nnu.geodata.cn:8008/">National Earth System Science
-                        Data Center</a>
-                    on March 17th, 2019. It covers information of important economic indicators for each city in Jiangsu
-                    province.
-                    Geographic data are downloaded from <a href="https://www.webmap.cn/main.do?method=index">National
-                        Catalogue Service For Geographic Information</a>
-                    on June, 2018. It records the border of each city.
-                    Social data used here are the locations of published paper's authors' institutions, obtained from
+                    Economic data records the commonly used economic indicator values which could reflect the
+                    development of first industry, second industry, tertiary industry, medical and health services,
+                    residents’ living standards, and public infrastructure construction. Usually, the Bureau of
+                    Statistics conducts this statistical work and publishes a yearbook every year.
+                    The dataset used here is collected from
+                    <a href="http://nnu.geodata.cn:8008/">National Earth System Science Data Center</a>
+                    on March 17th, 2019.
+                    Geographic data is the shp dataset recording the boundaries of the cities in Jiangsu Province. It
+                    also
+                    records the zip code and city name of each city. It is downloaded from
+                    <a href="https://www.webmap.cn/main.do?method=index">National Catalogue Service For Geographic
+                        Information</a>
+                    on June, 2018.
+                    Social data used here records the geographic locations of the institutions where the authors of
+                    published paper are located. It is obtained from
                     <a href="https://dl.acm.org/">ACMDL</a>.
-                    Nighttime light data are the digital number(DN) value results calculated from visible infrared
-                    imaging radiometer suite(VIIRS), published in <a
+                    Nighttime light data records the digital number (DN) value of each city that is calculated from the
+                    remote sensing image obtained by visible infrared imaging radiometer suite (VIIRS). This value could
+                    reflect the economic activities of each city at night.The original remote sensing images are
+                    published in <a
                         href="https://earthdata.nasa.gov/earth-observation-data/near-real-time/download-nrt-data/viirs-nrt">
                         EARTHDATA</a>.
                 </p>
@@ -103,7 +112,8 @@
                         TUM
                         <br />Map engine - <a href='https://www.mapbox.com/mapbox-gl-js/' target='_blank'>Mapbox GL
                             JS</a>
-                        <br />Graphing engine - <a href='https://threejs.org/' target='_blank'>Three.js</a>
+                        <br />Graphing engine - <a href='https://github.com/peterqliu/threebox'
+                            target='_blank'>threebox.js</a>
                     </p>
                 </div>
 
@@ -223,8 +233,8 @@
             <div id='legend-content'>
                 <div class='line legTitle'>Time:</div>
                 <div class='time'>
-                    <span id='timeCube'>&#9724;&#xFE0E;</span>
-                    <span class='caption timeCap'>} one year</span>
+                    <img src="./assets/test.png" alt="" id="timeCube">
+                    <span class='caption timeCap'> &nbsp;one year</span>
                 </div>
             </div>
         </div>
