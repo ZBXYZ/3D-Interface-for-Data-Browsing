@@ -1,13 +1,13 @@
 //import other packages
 //d3 package
-import '../scripts/d3.min.js';
+import './scripts/d3.min.js';
 //css
 import './css/style.css';
 //mapbox
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 //for drawing 3D objects
-import '../scripts/threebox.js';
+import './scripts/threebox.js';
 
 // Public Token
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FvbWVuZ3lhbyIsImEiOiJja2lxZjhiem8xdTF3MnNsYjQwMHlndHljIn0.tLfP2eEXpTxfujpzOyhz_A';
