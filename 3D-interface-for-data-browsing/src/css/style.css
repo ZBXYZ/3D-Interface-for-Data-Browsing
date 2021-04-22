@@ -148,7 +148,7 @@ a:active {
 #sidebar {
   position: absolute;
   z-index: 1012022;
-  top: 65px;
+  top: 60px;
   right: 15px;
   width: 170px;
 }
@@ -360,7 +360,7 @@ a:active {
 .filterSidebar{
   position: absolute;
   z-index: 1012022;
-  top: 65px;
+  top: 60px;
   left: 15px;
   width: 170px;
 }

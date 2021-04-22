@@ -1,13 +1,13 @@
 //import other packages
 //d3 package
-import './scripts/d3.min.js';
+import '../scripts/d3.min.js';
 //css
 import './css/style.css';
 //mapbox
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 //for drawing 3D objects
-import './scripts/threebox.js';
+import '../scripts/threebox.js';
 
 // Public Token
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FvbWVuZ3lhbyIsImEiOiJja2lxZjhiem8xdTF3MnNsYjQwMHlndHljIn0.tLfP2eEXpTxfujpzOyhz_A';
@@ -36,6 +36,7 @@ var cbc4 = d3.select("#cbc4");
 var cbc = d3.selectAll(".cbc");
 
 //3D scene related vars
+var map;
 let tb;
 const mouse = new THREE.Vector2();
 let raycaster = new THREE.Raycaster();;
@@ -52,7 +53,7 @@ let cate = d3.select("#popup p");
 let pop = d3.select("#popup");
 
 //Map origin
-var origin = [119.5, 33.0, 0];
+var origin = [119.8, 33.0, 0];
 
 // About Module Callbacks
 d3.select("#about-map-button").on("click", function () {
@@ -81,166 +82,167 @@ async function init() {
     const data = await request.json();
     positions = data.data;
     fileterCatogeries = JSON.parse(JSON.stringify(positions));
+    createMap();
 }
 init();
 
-//Create map and controls
-var map = new mapboxgl.Map({
-    style: 'mapbox://styles/gaomengyao/ckmc2ql5v3j7217ql8lizt5j9',
-    // style: 'mapbox://styles/mapbox/streets-v11',
-    container: 'map',
-    center: origin,
-    zoom: 6.8,
-    pitch: 55,
-    bearing: 17
-});
-var scale = new mapboxgl.ScaleControl({
-    maxWidth: 80,
-    unit: 'imperial'
-});
-map.addControl(scale);
-scale.setUnit('metric');
-
-map.on('style.load', function () {
-    addCustom(positions);
-    // Init a set of all districts.
-    var filter = new Set([3201, 3202, 3203, 3204, 3205, 3206, 3207, 3208, 3209, 3210, 3211, 3212, 3213]);
-    var districts = Array.from(filter);
-
-    // Filter for data category
-    var filterCat = new Set(['economic', 'geographic', 'paper', 'night']);
-    var categories = Array.from(filterCat);
-
-    //add event listener to checked options for each city
-    cbn.on("change", function () {
-
-        // Add and remove callbacks.
-        (cb1.property("checked")) ? filter.add(3201) : filter.delete(3201);
-        (cb2.property("checked")) ? filter.add(3202) : filter.delete(3202);
-        (cb3.property("checked")) ? filter.add(3203) : filter.delete(3203);
-        (cb4.property("checked")) ? filter.add(3204) : filter.delete(3204);
-        (cb5.property("checked")) ? filter.add(3205) : filter.delete(3205);
-        (cb6.property("checked")) ? filter.add(3206) : filter.delete(3206);
-        (cb7.property("checked")) ? filter.add(3207) : filter.delete(3207);
-        (cb8.property("checked")) ? filter.add(3208) : filter.delete(3208);
-        (cb9.property("checked")) ? filter.add(3209) : filter.delete(3209);
-        (cb10.property("checked")) ? filter.add(3210) : filter.delete(3210);
-        (cb11.property("checked")) ? filter.add(3211) : filter.delete(3211);
-        (cb12.property("checked")) ? filter.add(3212) : filter.delete(3212);
-        (cb13.property("checked")) ? filter.add(3213) : filter.delete(3213);
-
-        //change the state of the all checked checkbox
-        let flag = true;
-        for (let value of districts) {
-            if (!filter.has(value)) {
-                flag = false;
-            }
-        }
-        if (flag) {
-            cbAll.property('checked', true);
-        }
-        else {
-            cbAll.property('checked', false);
-        }
-
-        filterApply();
+function createMap() {
+    //Create map and controls
+    map = new mapboxgl.Map({
+        style: 'mapbox://styles/gaomengyao/ckmc2ql5v3j7217ql8lizt5j9',
+        // style: 'mapbox://styles/mapbox/streets-v11',
+        container: 'map',
+        center: origin,
+        zoom: 6.8,
+        pitch: 55,
+        bearing: 17
     });
-
-    //add event listener to the all checked option for cities
-    cbAll.on("change", function () {
-        let flag = true;
-        if (cbAll.property("checked")) {
-            filter = new Set([3201, 3202, 3203, 3204, 3205, 3206, 3207, 3208, 3209, 3210, 3211, 3212, 3213]);
-        }
-        else {
-            filter.clear();
-            flag = false;
-        }
-        //set all checkbox]
-        cb1.property("checked", flag);
-        cb2.property("checked", flag);
-        cb3.property("checked", flag);
-        cb4.property("checked", flag);
-        cb5.property("checked", flag);
-        cb6.property("checked", flag);
-        cb7.property("checked", flag);
-        cb8.property("checked", flag);
-        cb9.property("checked", flag);
-        cb10.property("checked", flag);
-        cb11.property("checked", flag);
-        cb12.property("checked", flag);
-        cb13.property("checked", flag);
-
-        filterApply();
+    var scale = new mapboxgl.ScaleControl({
+        maxWidth: 80,
+        unit: 'imperial'
     });
+    map.addControl(scale);
+    scale.setUnit('metric');
+    map.getCanvas().style.cursor = "default";
+    map.on('style.load', function () {
+        addCustom(positions);
+        // Init a set of all districts.
+        var filter = new Set([3201, 3202, 3203, 3204, 3205, 3206, 3207, 3208, 3209, 3210, 3211, 3212, 3213]);
+        var districts = Array.from(filter);
 
-    //add event listener to checked options for each category
-    cbc.on("change", function () {
+        // Filter for data category
+        var filterCat = new Set(['economic', 'geographic', 'paper', 'night']);
+        var categories = Array.from(filterCat);
 
-        // Add and remove callbacks.
-        (cbc1.property("checked")) ? filterCat.add('geographic') : filterCat.delete('geographic');
-        (cbc2.property("checked")) ? filterCat.add('economic') : filterCat.delete('economic');
-        (cbc3.property("checked")) ? filterCat.add('paper') : filterCat.delete('paper');
-        (cbc4.property("checked")) ? filterCat.add('night') : filterCat.delete('night');
+        //add event listener to checked options for each city
+        cbn.on("change", function () {
 
-        //change the state of the all checked checkbox
-        let flag = true;
-        for (let value of categories) {
-            if (!filterCat.has(value)) {
-                flag = false;
-            }
-        }
-        if (flag) {
-            cbcAll.property('checked', true);
-        }
-        else {
-            cbcAll.property('checked', false);
-        }
+            // Add and remove callbacks.
+            (cb1.property("checked")) ? filter.add(3201) : filter.delete(3201);
+            (cb2.property("checked")) ? filter.add(3202) : filter.delete(3202);
+            (cb3.property("checked")) ? filter.add(3203) : filter.delete(3203);
+            (cb4.property("checked")) ? filter.add(3204) : filter.delete(3204);
+            (cb5.property("checked")) ? filter.add(3205) : filter.delete(3205);
+            (cb6.property("checked")) ? filter.add(3206) : filter.delete(3206);
+            (cb7.property("checked")) ? filter.add(3207) : filter.delete(3207);
+            (cb8.property("checked")) ? filter.add(3208) : filter.delete(3208);
+            (cb9.property("checked")) ? filter.add(3209) : filter.delete(3209);
+            (cb10.property("checked")) ? filter.add(3210) : filter.delete(3210);
+            (cb11.property("checked")) ? filter.add(3211) : filter.delete(3211);
+            (cb12.property("checked")) ? filter.add(3212) : filter.delete(3212);
+            (cb13.property("checked")) ? filter.add(3213) : filter.delete(3213);
 
-        filterApply();
-    });
-
-    //add event listener to the all checked option for categories
-    cbcAll.on("change", function () {
-        let flag = true;
-        if (cbcAll.property("checked")) {
-            filterCat = new Set(['economic', 'geographic', 'paper', 'night']);
-        }
-        else {
-            filterCat.clear();
-            flag = false;
-        }
-        //set all checkbox]
-        cbc1.property("checked", flag);
-        cbc2.property("checked", flag);
-        cbc3.property("checked", flag);
-        cbc4.property("checked", flag);
-
-        filterApply();
-    });
-
-    //apply filter function
-    var filterApply = function () {
-        // Set the filter based on the set.
-        fileterCatogeries = positions.map(element => {
-            let ele = JSON.parse(JSON.stringify(element));
-            if (filter.has(ele.postcode)) {
-                let attArr = Object.keys(ele);
-                for (let i = 2; i < attArr.length; i++) {
-                    let att = attArr[i];
-                    if (!filterCat.has(att)) {
-                        delete ele[att];
-                    }
+            //change the state of the all checked checkbox
+            let flag = true;
+            for (let value of districts) {
+                if (!filter.has(value)) {
+                    flag = false;
                 }
-                return ele;
             }
-        })
-        console.log(fileterCatogeries);
-        map.removeLayer("custom_layer");
-        addCustom(fileterCatogeries);
-    }
+            if (flag) {
+                cbAll.property('checked', true);
+            }
+            else {
+                cbAll.property('checked', false);
+            }
 
-});
+            filterApply();
+        });
+
+        //add event listener to the all checked option for cities
+        cbAll.on("change", function () {
+            let flag = true;
+            if (cbAll.property("checked")) {
+                filter = new Set([3201, 3202, 3203, 3204, 3205, 3206, 3207, 3208, 3209, 3210, 3211, 3212, 3213]);
+            }
+            else {
+                filter.clear();
+                flag = false;
+            }
+            //set all checkbox]
+            cb1.property("checked", flag);
+            cb2.property("checked", flag);
+            cb3.property("checked", flag);
+            cb4.property("checked", flag);
+            cb5.property("checked", flag);
+            cb6.property("checked", flag);
+            cb7.property("checked", flag);
+            cb8.property("checked", flag);
+            cb9.property("checked", flag);
+            cb10.property("checked", flag);
+            cb11.property("checked", flag);
+            cb12.property("checked", flag);
+            cb13.property("checked", flag);
+
+            filterApply();
+        });
+
+        //add event listener to checked options for each category
+        cbc.on("change", function () {
+
+            // Add and remove callbacks.
+            (cbc1.property("checked")) ? filterCat.add('geographic') : filterCat.delete('geographic');
+            (cbc2.property("checked")) ? filterCat.add('economic') : filterCat.delete('economic');
+            (cbc3.property("checked")) ? filterCat.add('paper') : filterCat.delete('paper');
+            (cbc4.property("checked")) ? filterCat.add('night') : filterCat.delete('night');
+
+            //change the state of the all checked checkbox
+            let flag = true;
+            for (let value of categories) {
+                if (!filterCat.has(value)) {
+                    flag = false;
+                }
+            }
+            if (flag) {
+                cbcAll.property('checked', true);
+            }
+            else {
+                cbcAll.property('checked', false);
+            }
+
+            filterApply();
+        });
+
+        //add event listener to the all checked option for categories
+        cbcAll.on("change", function () {
+            let flag = true;
+            if (cbcAll.property("checked")) {
+                filterCat = new Set(['economic', 'geographic', 'paper', 'night']);
+            }
+            else {
+                filterCat.clear();
+                flag = false;
+            }
+            //set all checkbox]
+            cbc1.property("checked", flag);
+            cbc2.property("checked", flag);
+            cbc3.property("checked", flag);
+            cbc4.property("checked", flag);
+
+            filterApply();
+        });
+
+        //apply filter function
+        function filterApply() {
+            // Set the filter based on the set.
+            fileterCatogeries = positions.map(element => {
+                let ele = JSON.parse(JSON.stringify(element));
+                if (filter.has(ele.postcode)) {
+                    let attArr = Object.keys(ele);
+                    for (let i = 2; i < attArr.length; i++) {
+                        let att = attArr[i];
+                        if (!filterCat.has(att)) {
+                            delete ele[att];
+                        }
+                    }
+                    return ele;
+                }
+            })
+            map.removeLayer("custom_layer");
+            addCustom(fileterCatogeries);
+        }
+    });
+}
 
 //Get the intersected 3D object
 function onDocumentMouseMove(event) {
@@ -268,7 +270,7 @@ function onDocumentMouseMove(event) {
         }
 
     } else {
-        pop.style('display', 'none');
+        pop.style("display", 'none');
 
         if (INTERSECTED) INTERSECTED.material.emissive.setHex(INTERSECTED.currentHex);
 
@@ -279,13 +281,13 @@ function onDocumentMouseMove(event) {
 }
 
 //Show the popup
-let popup = function (obj, x, y) {
+function popup(obj, x, y) {
 
     let data = obj.data;
 
     containers[0][0].innerHTML = data.time;
-    containers[0][1].innerHTML = data.completeness.toFixed(2);
-    containers[0][2].innerHTML = data.size;
+    containers[0][1].innerHTML = Math.round(data.completeness * 100) + "%";
+    containers[0][2].innerHTML = data.size + "kb";
 
     cate.html(data.category);
     pop.style('display', 'block');
@@ -294,11 +296,12 @@ let popup = function (obj, x, y) {
 }
 
 //Add customized layer 
-let addCustom = function (positions) {
+function addCustom(positions) {
     map.addLayer({
         id: 'custom_layer',
         type: 'custom',
         onAdd: function (map, mbxContext) {
+
             tb = new Threebox(
                 map,
                 mbxContext,
@@ -328,11 +331,10 @@ let addCustom = function (positions) {
                     if (positions[j].night) {
                         let nightSize = positions[j].night.data[i].size == 0 ? 10 : (positions[j].night.data[i].size) * 0.9 + 50;
                         let nightGeometry = new THREE.BoxGeometry(nightSize, nightSize, 230);
-                        //texture test
                         let blackMaterial = new THREE.MeshPhongMaterial({
                             color: 0x213C3C,
                             side: THREE.FrontSide,
-                            opacity: positions[j].night.data[i].completeness,
+                            opacity: positions[j].night.data[i].completeness
                         });
                         let cube4 = new THREE.Mesh(nightGeometry, blackMaterial);
                         cube4 = tb.Object3D({ obj: cube4 })
@@ -348,7 +350,7 @@ let addCustom = function (positions) {
                         let redMaterial = new THREE.MeshPhongMaterial({
                             color: 0x631a18,
                             side: THREE.FrontSide,
-                            opacity: positions[j].economic.data[i].completeness,
+                            opacity: positions[j].economic.data[i].completeness
                         });
                         let cube2 = new THREE.Mesh(economicGeometry, redMaterial);
                         cube2 = tb.Object3D({ obj: cube2 })
@@ -364,7 +366,7 @@ let addCustom = function (positions) {
                         let yellowMaterial = new THREE.MeshPhongMaterial({
                             color: 0x975843,
                             side: THREE.FrontSide,
-                            opacity: positions[j].paper.data[i].completeness,
+                            opacity: positions[j].paper.data[i].completeness
                         });
                         let cube3 = new THREE.Mesh(paperGeometry, yellowMaterial);
                         cube3 = tb.Object3D({ obj: cube3 })
@@ -384,5 +386,3 @@ let addCustom = function (positions) {
         }
     });
 }
-// Set default map cursor to a hand.
-map.getCanvas().style.cursor = "default";
