@@ -102,6 +102,11 @@ function createMap() {
         unit: 'imperial'
     });
     map.addControl(scale);
+    var campass = new mapboxgl.NavigationControl({
+        showCompass: true
+    })
+    map.addControl(campass);
+    d3.select(".mapboxgl-ctrl-top-right").attr("class", "campass-pos");
     scale.setUnit('metric');
     map.getCanvas().style.cursor = "default";
     map.on('style.load', function () {
