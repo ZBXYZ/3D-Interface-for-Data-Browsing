@@ -361,7 +361,7 @@ function addCustom(positions) {
                         cube2 = tb.Object3D({ obj: cube2 })
                             .setCoords([positions[j].economic.longitudeEco, positions[j].latitude, i * 11000]);
                         cube2.data = positions[j].economic.data[i];
-                        cube2.data.category = "Economic";
+                        cube2.data.category = "Socioeconomic";
                         tb.add(cube2);
                     }
 
@@ -377,7 +377,7 @@ function addCustom(positions) {
                         cube3 = tb.Object3D({ obj: cube3 })
                             .setCoords([positions[j].paper.longitudePaper, positions[j].latitude, i * 11000]);
                         cube3.data = positions[j].paper.data[i];
-                        cube3.data.category = "Social";
+                        cube3.data.category = "Scholarly";
                         tb.add(cube3);
                     }
 
